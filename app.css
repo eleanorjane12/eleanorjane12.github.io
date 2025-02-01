@@ -8,23 +8,20 @@ body {
 h1 {
     color: pink;
     font-size: 80px;
-    margin-bottom: 0;
+    margin-bottom: 20;
+    margin-top: 0;
 
 }
+h3 {
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 2;
+    margin-top: 10;
+}
 
-button {
-    border: orange;
-    color: blue;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  
-  .header-elements {
-    
+
+
+.header-elements { 
     font-size: 15px;
     line-height: 50px;
 
@@ -37,33 +34,91 @@ button {
 }
 
 a:link {
-    color:palevioletred;
+    color:pink;
     text-decoration: none;
 }
 a:visited {
-    color:palevioletred;
+    color:pink;
 }
 
-#artwork {
+.artwork {
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-}
-#artwork2 {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
+    margin: 10px;
 }
 
-.links>p {
-    margin: 0;
-    padding: 0;
+
+.links {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
+
+.link-box {
+    margin: 0px 0px auto;
+    padding: 0px;
+    line-height: 20px;
+    p {
+        margin: 10px;
+    }
+}
+
 
 .separator {
-    width: 100%;
+    align-self: center; 
+    width: 80%;
     height: 3px;
     background-color: pink;
-    margin: 10px 0;
+    margin: 10px auto;
 }
+
+#pic-me {
+    margin-top: 10px;
+}
+
+.mini-about {
+    align-self: center;
+    width: 80%;
+    margin: 10px auto;
+    line-height: 30px;
+}
+
+#intro {
+    align-self: center;
+    align-items: center;
+}
+
+#about-header {
+    margin: 100px;
+}
+
+.buttons {
+    font-size: 30px;
+    align-self: center;
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+    justify-content: center; 
+}
+
+button {
+    align-self: center;
+    font-size: 30px;
+    height: 70px;
+    border: 2px solid pink;
+    color: pink;
+    background-color: white;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    text-align: center center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: pink;
+    border-color: white;
+    color: white;
+  }
 
