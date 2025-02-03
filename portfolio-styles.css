@@ -25,7 +25,7 @@ h3 {
 .separator {
     align-self: center; 
     width: 90%;
-    height: 2px;
+    height: 3px;
     background-color: pink;
     margin: 20px auto;
 }
@@ -77,6 +77,8 @@ h3 {
 #row2 {
     align-items: center;
     justify-content: flex-end; /* Aligns content to the left */
+    margin-right: 5vw;
+    margin-left: 5vw;
 }
 
 .column {
@@ -87,6 +89,45 @@ h3 {
     width: 35vw;
     max-width: 100%;
 }
+
+#backgrounds {
+    width: 100vw;
+
+}
+.grid-subimg {
+    width: 25vw;
+    height: auto;
+    padding: 20px;
+}
+
+.grid-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#col2 {
+    width: 20vw;
+    height: auto;
+    padding: 20px;
+}
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+a:visited {
+    color: gray;
+}
+
+.home-button {
+    font-size: 30px;
+    position: fixed;
+    top: 20px;
+    left: 30px;  
+}
+
 
 
 

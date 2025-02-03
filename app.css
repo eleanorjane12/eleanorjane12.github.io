@@ -54,6 +54,7 @@ a:visited {
     display: flex;
     flex-direction: row;
     text-align: center;
+    margin: 20px;
 }
 
 .link-box {

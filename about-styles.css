@@ -1,0 +1,65 @@
+body {
+    font-family: Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: gray;
+}
+
+h1 {
+    color: pink;
+    font-size: 80px;
+    margin-bottom: 20;
+    margin-top: 10;
+
+}
+h3 {
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 2;
+    margin-top: 0;
+}
+
+
+.header-elements { 
+    font-size: 15px;
+    line-height: 50px;
+
+  }
+
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+a:visited {
+    color: gray;
+}
+
+.mini-about {
+    align-self: center;
+    width: 80%;
+    margin: 10px auto;
+    line-height: 30px;
+    a:link {
+        color: gray;
+        text-decoration: underline;
+    }
+}
+#about-header {
+    margin: 100px;
+}
+.separator {
+    align-self: center; 
+    width: 80%;
+    height: 3px;
+    background-color: pink;
+    margin: 10px auto;
+}
+
+.home-button {
+    font-size: 30px;
+    position: fixed;
+    top: 20px;
+    left: 30px; 
+    text-decoration: none; 
+}
+
