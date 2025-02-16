@@ -128,7 +128,33 @@ a:visited {
     left: 30px;  
 }
 
+.row-across {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+}
 
+.across-subimg{
+    flex: 1;
+    max-width: 30%; 
+    height: auto; 
+    object-fit: contain; 
+    padding: 10px;
+    margin: 10px;
+}
+
+#img-description {
+    text-align: center;
+    width: 100vw;
+}
+
+.animation-vids {
+    width: 80vw;
+    align-self: center;
+
+}
 
 
 
